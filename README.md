@@ -1,4 +1,4 @@
-# FarsiSearch
+# Persian Search Engine
 
 > A Persian-language information retrieval system built on the Hamshahri corpus
 
@@ -6,7 +6,7 @@
 
 ## Overview
 
-FarsiSearch is a full information retrieval (IR) pipeline implemented in Python, designed specifically for Persian (Farsi) text. It processes the [Hamshahri corpus](http://dbrg.ut.ac.ir/Hamshahri/) — a large collection of real-world Persian newspaper articles — and supports end-to-end document indexing, query processing, and relevance ranking.
+A full information retrieval (IR) pipeline implemented in Python, designed specifically for Persian (Farsi) text. It processes the [Hamshahri corpus](http://dbrg.ut.ac.ir/Hamshahri/) — a large collection of real-world Persian newspaper articles — and supports end-to-end document indexing, query processing, and relevance ranking.
 
 The project addresses the unique challenges of Persian NLP: right-to-left script, rich morphology, character encoding variations, and the lack of whitespace-based word boundaries in some contexts.
 
@@ -31,18 +31,6 @@ The project addresses the unique challenges of Persian NLP: right-to-left script
 | Size        | 160,000+ articles                                |
 | Topics      | Politics, economics, sports, culture, and more   |
 | Notable use | CLEF 2008 & 2009 Persian IR evaluation campaigns |
-
----
-
-## Project Structure
-
-```
-FarsiSearch/
-├── ir.ipynb               # Main notebook — full IR pipeline
-├── HamshahriData.7z       # Compressed corpus data
-├── Project Description.pdf  # Project spec and requirements
-└── README.md
-```
 
 ---
 
